@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    background-image: url('grid background.jpg'); /* Background pic */
+    background-size: cover; /* Cover full screen */
+    background-attachment: fixed; /* Fixed when scrolling */
+    background-position: center; /* Center the pic */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Light box */
+    padding: 30px;
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: #fdcc16; /* Yellow */
+    color: #000; /* Black text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth hover */
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker yellow */
+}
+
+ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    font-family: 'Courier New', Courier, monospace;
+}
